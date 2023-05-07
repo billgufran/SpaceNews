@@ -14,6 +14,10 @@ class HomeTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let refreshControl = UIRefreshControl()
+        
+        self.refreshControl = refreshControl
+        
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
         
@@ -24,7 +28,18 @@ class HomeTableViewController: UITableViewController {
         tableView.delegate = self
         
         loadNews()
+        tableView.reloadData()
         
+        refreshControl.addTarget(
+            self,
+            action: #selector(self.refresh(_:)),
+            for: .valueChanged
+        )
+        refreshControl.beginRefreshing()
+    }
+    
+    @objc func refresh(_ sender: Any) {
+        loadNews()
         tableView.reloadData()
     }
     
@@ -44,7 +59,7 @@ class HomeTableViewController: UITableViewController {
         ApiService.shared.loadNews { [weak self] result in
             guard let `self` = self else { return }
             
-            //            self.refreshControl.endRefreshing()
+            self.refreshControl?.endRefreshing()
             
             switch result {
             case .success(let newsList):
@@ -136,7 +151,9 @@ extension HomeTableViewController: NewsTableViewCellDelegate {
         if let indexPath = tableView.indexPath(for: cell) {
             let news = newsList[indexPath.row]
             
-            debugPrint("redirect to \(news.newsSite)")
+            if let url = URL(string: news.url) {
+                UIApplication.shared.open(url)
+            }
         }
     }
 }
