@@ -14,6 +14,7 @@
 		89AB58542A079E2F00321F22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89AB58522A079E2F00321F22 /* Main.storyboard */; };
 		89AB58562A079E3000321F22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89AB58552A079E3000321F22 /* Assets.xcassets */; };
 		89AB58592A079E3000321F22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89AB58572A079E3000321F22 /* LaunchScreen.storyboard */; };
+		89AB58642A07A1A000321F22 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AB58632A07A1A000321F22 /* HomeTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		89AB58552A079E3000321F22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89AB58582A079E3000321F22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89AB585A2A079E3000321F22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89AB58632A07A1A000321F22 /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
 		A264183CF25D05D638D2FA67 /* Pods-SpaceNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpaceNews.debug.xcconfig"; path = "Target Support Files/Pods-SpaceNews/Pods-SpaceNews.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -48,7 +50,6 @@
 				A264183CF25D05D638D2FA67 /* Pods-SpaceNews.debug.xcconfig */,
 				090C9CF5459BE047391E2D2D /* Pods-SpaceNews.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -73,6 +74,7 @@
 		89AB584B2A079E2F00321F22 /* SpaceNews */ = {
 			isa = PBXGroup;
 			children = (
+				89AB58602A07A0CB00321F22 /* Home */,
 				89AB584C2A079E2F00321F22 /* AppDelegate.swift */,
 				89AB584E2A079E2F00321F22 /* SceneDelegate.swift */,
 				89AB58502A079E2F00321F22 /* ViewController.swift */,
@@ -82,6 +84,14 @@
 				89AB585A2A079E3000321F22 /* Info.plist */,
 			);
 			path = SpaceNews;
+			sourceTree = "<group>";
+		};
+		89AB58602A07A0CB00321F22 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				89AB58632A07A1A000321F22 /* HomeTableViewController.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 		EADAD4404FC2863C7A0BD99F /* Frameworks */ = {
@@ -210,6 +220,7 @@
 				89AB58512A079E2F00321F22 /* ViewController.swift in Sources */,
 				89AB584D2A079E2F00321F22 /* AppDelegate.swift in Sources */,
 				89AB584F2A079E2F00321F22 /* SceneDelegate.swift in Sources */,
+				89AB58642A07A1A000321F22 /* HomeTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
