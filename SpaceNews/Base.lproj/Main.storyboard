@@ -31,20 +31,20 @@
                                             </constraints>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lockheed, Raytheon to develop ground systems for nuclear-hardened sattelite communications" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q4R-Fy-WlV">
-                                            <rect key="frame" x="20" y="238.99999999999997" width="353" height="71.666666666666657"/>
+                                            <rect key="frame" x="20" y="236.99999999999997" width="353" height="71.666666666666657"/>
                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VVn-Nd-GUS">
-                                            <rect key="frame" x="20" y="326.66666666666669" width="353" height="95.666666666666686"/>
+                                            <rect key="frame" x="20" y="322.66666666666669" width="353" height="95.666666666666686"/>
                                             <string key="text">The U.S. Space Force selected Lockheed Martin and Raytheon to develop competing ground systems for a next-generation space communications network that can survive a nuclear attack</string>
                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                             <color key="textColor" systemColor="secondaryLabelColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YOO-dk-JnA">
-                                            <rect key="frame" x="20" y="430.33333333333331" width="98" height="54.666666666666686"/>
+                                            <rect key="frame" x="20" y="426.33333333333331" width="98" height="58.666666666666686"/>
                                             <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                             <inset key="contentEdgeInsets" minX="12" minY="2" maxX="12" maxY="2"/>
@@ -58,13 +58,13 @@
                                         </button>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="q4R-Fy-WlV" firstAttribute="top" secondItem="xWF-Db-mVZ" secondAttribute="bottom" constant="14" id="1tH-JQ-cB1"/>
+                                        <constraint firstItem="q4R-Fy-WlV" firstAttribute="top" secondItem="xWF-Db-mVZ" secondAttribute="bottom" constant="12" id="1tH-JQ-cB1"/>
                                         <constraint firstItem="VVn-Nd-GUS" firstAttribute="leading" secondItem="xWF-Db-mVZ" secondAttribute="leading" id="2AB-0i-1BB"/>
                                         <constraint firstItem="xWF-Db-mVZ" firstAttribute="top" secondItem="YeZ-aH-05l" secondAttribute="top" id="3T1-9F-Uxh"/>
                                         <constraint firstItem="xWF-Db-mVZ" firstAttribute="leading" secondItem="YeZ-aH-05l" secondAttribute="leading" constant="20" id="MPc-tv-5pT"/>
                                         <constraint firstItem="q4R-Fy-WlV" firstAttribute="leading" secondItem="xWF-Db-mVZ" secondAttribute="leading" id="OgA-AF-rof"/>
                                         <constraint firstItem="YOO-dk-JnA" firstAttribute="top" secondItem="VVn-Nd-GUS" secondAttribute="bottom" constant="8" id="Y9f-g2-OJi"/>
-                                        <constraint firstItem="VVn-Nd-GUS" firstAttribute="top" secondItem="q4R-Fy-WlV" secondAttribute="bottom" constant="16" id="brt-X2-Ca0"/>
+                                        <constraint firstItem="VVn-Nd-GUS" firstAttribute="top" secondItem="q4R-Fy-WlV" secondAttribute="bottom" constant="14" id="brt-X2-Ca0"/>
                                         <constraint firstItem="VVn-Nd-GUS" firstAttribute="trailing" secondItem="xWF-Db-mVZ" secondAttribute="trailing" id="dIp-WO-Pk7"/>
                                         <constraint firstItem="q4R-Fy-WlV" firstAttribute="trailing" secondItem="xWF-Db-mVZ" secondAttribute="trailing" id="li7-cn-R0z"/>
                                         <constraint firstAttribute="trailing" secondItem="xWF-Db-mVZ" secondAttribute="trailing" constant="20" id="mkm-oj-v9d"/>
