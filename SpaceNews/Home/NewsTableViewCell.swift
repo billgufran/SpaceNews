@@ -25,18 +25,6 @@ class NewsTableViewCell: UITableViewCell {
         setup()
     }
     
-//    override func layoutSubviews() {
-//        super.layoutSubviews()
-//
-//        let yPadding: CGFloat = 10
-//        contentView.frame = contentView.frame.inset(by: UIEdgeInsets(
-//            top: yPadding,
-//            left: 0,
-//            bottom: 0,
-//            right: 0
-//        ))
-//    }
-    
     func setup() {
         setImageStyles()
         setButtonStyles()
