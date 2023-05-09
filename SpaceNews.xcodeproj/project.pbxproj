@@ -403,6 +403,7 @@
 				DEVELOPMENT_TEAM = 548G9738L7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SpaceNews/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Space News";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -433,6 +434,7 @@
 				DEVELOPMENT_TEAM = 548G9738L7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SpaceNews/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Space News";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
